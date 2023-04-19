@@ -7,3 +7,72 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* shared classes */
+
+.button{
+    padding: 7px 14px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0061FF;
+}
+
+/* fine shared classes */
+
+/* header */
+
+.navbar-row{
+    width: 100vw;
+}
+
+.navbar-col{
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    background-color: #FFFFFF;
+    
+}
+
+.navbar-content{
+    padding: 20px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content{
+    width: calc(100% / 2);
+    display: flex;
+}
+
+.left-navbar-options{
+    margin-left: 25px;
+}
+
+.logo{
+    margin-left: 25px;
+}
+
+.left-menu{
+    margin-right: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.right-content{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-menu{
+    margin-right: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-button{
+    margin-right: 25px;
+}
+
+/* fine header */
