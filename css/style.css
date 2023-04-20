@@ -94,7 +94,7 @@ body{
 h1{
     padding-top: 60px;
     margin-bottom: 15px;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 800;
 }
 
@@ -109,16 +109,19 @@ h1{
 }
 
 .col-30-first > p{
-    padding: 15px 0px 15px 0px;
+    padding: 25px 0px 25px 0px;
+    font-size: 0.9rem;
 }
 
 .col-30-first > span{
     margin: 30px 0px;
+    font-size: 0.9rem;
     display: inline-block;
 }
 
 .button-1{
     padding: 13px;
+    font-size: 0.9rem;
 }
 
 .arrow-down{
@@ -135,9 +138,153 @@ h1{
 }
 
 .image-1{
-    position: absolute;
-    top: 40px;
     width: 100%;
+    position: absolute;
+    top: 25px;
 }
 
 /* fine sezione " Tuttò ciò che ti serve per il lavoro" */
+
+/* sezione " Trova il piano business" */
+
+/* selezione fatturazione */
+
+.radio-check{
+    margin: 50px 0px;
+}
+
+#fatturazione-annuale{
+    margin-left: 50px;
+}
+
+/* fine selezione fatturazione */
+
+.container-991{
+    max-width: 991px;
+    margin: 0px auto;
+}
+
+h2{
+    margin-top: 175px;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.col-30{
+    width: calc(100% / 3 - 30px);
+}
+
+.col-30-border, .col-100-border{
+    border: solid 1px lightgray;
+}
+
+.col-30-content{
+    width: 100%;
+}
+
+.subscription-plan{
+    padding: 10px;
+    border-bottom: solid 1px lightgray;
+    text-align: center;
+}
+
+.details{
+    width: calc(100% - 40px);
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin: 25px 15px;
+}
+
+.details > h3{
+    margin-bottom: 15px;
+}
+
+.price{
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.duration{
+    margin-bottom: 50px;
+    font-size: 0.8rem;
+    color: #A7A7A7;
+}
+
+ul li{
+    font-size: 0.9rem;
+    list-style-type: none;
+}
+
+.subscription-plan-function{
+    width: 100%;
+    margin-left: 5px;
+}
+
+.free-trial-button{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.buy-now{
+    margin: 20px 0px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.fa-check{
+    color: #0061FF;
+}
+
+hr{
+    width: 55px;
+    margin: 30px 0px 40px 0px;
+    color: #A7A7A7;
+}
+
+li{
+    margin: 25px 0px;
+    font-weight: 400;
+    display: flex;
+}
+
+.col-100{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.col-100-content{
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.col-100-subsciprion-plan{
+    margin: 15px 0px;
+}
+
+.col-100-text{
+    width: 65%;
+    margin: 30px 30px;
+}
+
+.col-100-text > h3{
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.col-100-text > h5{
+    margin-bottom: 40px;
+}
+
+.col-100-text > p{
+    font-size: 0.9rem;
+}
+
+.contact-button{
+    padding: 10px 30px;
+    position: absolute;
+    top: 65px;
+    right: 30px;   
+}
+
+/* fine sezione " Trova il piano business" */
