@@ -24,6 +24,15 @@ body{
     flex-wrap: wrap;
 }
 
+
+.col-30{
+    width: calc(100% / 3 - 30px);
+}
+
+.col-30-content{
+    width: 100%;
+}
+
 /* fine shared classes */
 
 /* header */
@@ -170,16 +179,8 @@ h2{
     font-size: 2.5rem;
 }
 
-.col-30{
-    width: calc(100% / 3 - 30px);
-}
-
 .col-30-border, .col-100-border{
     border: solid 1px lightgray;
-}
-
-.col-30-content{
-    width: 100%;
 }
 
 .subscription-plan{
@@ -254,7 +255,7 @@ li{
 }
 
 .col-100-content{
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     position: relative;
 }
 
@@ -288,3 +289,47 @@ li{
 }
 
 /* fine sezione " Trova il piano business" */
+
+/* sezione Entra in contatto con un partner */
+
+.row-60{
+    margin-top: 120px;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-60 > img{
+    width: 100%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-40-content{
+    margin: 65px;
+}
+
+.col-40-content > h3{
+    margin-bottom: 15px;
+}
+
+.col-40-content > p{
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+.find-partner-button{
+    padding: 10px 20px;
+    border: 1px solid #3D3D3D;
+    font-size: 0.9rem;
+    color: #3D3D3D;
+    background-color: #FFFFFF;
+}
+
+/* fine sezione Entra in contatto con un partner */
+
