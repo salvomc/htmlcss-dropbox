@@ -17,6 +17,13 @@ body{
     background-color: #0061FF;
 }
 
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 /* fine shared classes */
 
 /* header */
@@ -76,3 +83,61 @@ body{
 }
 
 /* fine header */
+
+/* sezione " Tuttò ciò che ti serve per il lavoro" */
+
+.container-1170{
+    margin: 0px auto;
+    max-width: 1170px;
+}
+
+h1{
+    padding-top: 60px;
+    margin-bottom: 15px;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.jumbotron-1{
+    padding-top: 80px;
+    width: 100vw;
+    background-color: #B4D0E7;
+}
+
+.col-30-first{
+    width: 30%;
+}
+
+.col-30-first > p{
+    padding: 15px 0px 15px 0px;
+}
+
+.col-30-first > span{
+    margin: 30px 0px;
+    display: inline-block;
+}
+
+.button-1{
+    padding: 13px;
+}
+
+.arrow-down{
+    margin: 30px 0px 10px 0px;
+    font-size: 2.5rem;
+}
+
+.col-70-first{
+    width: 70%;
+}
+
+.image-1-container{
+    position: relative;
+}
+
+.image-1{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+/* fine sezione " Tuttò ciò che ti serve per il lavoro" */
