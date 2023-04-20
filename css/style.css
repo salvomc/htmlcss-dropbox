@@ -333,3 +333,22 @@ li{
 
 /* fine sezione Entra in contatto con un partner */
 
+/* sezione Esegui più operazione con Dropbox Business*/
+
+.col-30-content > img{
+    width: 100%;
+}
+
+.col-30-content > h4{
+    margin: 20px 0px;
+    font-size: 1.1rem;
+}
+
+.col-30-content > p{
+    margin-bottom: 30px;
+    font-size: 0,8rem;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+/* sezione Esegui più operazione con Dropbox Business*/
