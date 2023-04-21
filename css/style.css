@@ -24,7 +24,6 @@ body{
     flex-wrap: wrap;
 }
 
-
 .col-30{
     width: calc(100% / 3 - 30px);
 }
@@ -46,6 +45,16 @@ body{
 .col-100-content{
     margin-bottom: 50px;
     position: relative;
+}
+
+.col-50{
+    width: 50%;
+    height: 50%;
+    position: relative;
+} 
+
+.height{
+    height: 100%;
 }
 
 /* fine shared classes */
@@ -183,7 +192,7 @@ h1{
     margin: 0px auto;
 }
 
-h2{
+.container-991 > h2{
     margin-top: 175px;
     margin-bottom: 50px;
     font-size: 2.5rem;
@@ -345,7 +354,7 @@ li{
 }
 
 .col-30-content > p{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 0,8rem;
     font-weight: 400;
     color: #3D3D3D;
@@ -353,4 +362,89 @@ li{
 
 /* sezione Esegui più operazione con Dropbox Business*/
 
+/* sezione Più di 500.000 team utilizzano Dropbox Business */
+
+.col-100-content > h2{
+    padding-bottom: 50px;
+    margin-top: 105px;
+    font-size: 2.5rem;
+}
+
+/* fine sezione Più di 500.000 team utilizzano Dropbox Business */
+
+/* sezione Designit */
+
+.logos-container{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #F5F5F5;
+}
+
+.col-33{
+    height: calc(100vw / 3);
+    width: calc(100% / 3);
+}
+
+.designit-content{
+    padding: 50px;
+}
+
+.designit-img > img{
+    width: 50%;
+} 
+
+.designit-content > p, span{
+    margin-bottom: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+.designit-content > span{
+    margin: 50px 0px 100px 0px;
+}
+
+.designit-logo{
+    margin: 30px 0px 40px 0px;
+}
+
+.squares > img{
+    width: 150px;
+    transform: translate(-50%, -50%);
+    filter: brightness(0) invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#background-light-green{
+    border: 20px solid #D1E9CD;
+    background-color: #A2D39B;
+}
+
+#background-dark-red{
+    background-color: #61082B;
+}
+
+#background-sky-blue{
+    background-color: #0093CE;
+}
+
+.background-red{
+    background-color: #FF1C1C;
+}
+
+#background-light-blue{
+    background-color: #B4D0E7;
+}
+
+#background-blue{
+    background-color: #0D2481;
+}
+
+#background-yellow{
+    background-color: #FFD830;
+}
+
+/* fine sezione Designit */
 
