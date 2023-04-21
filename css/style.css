@@ -466,3 +466,33 @@ li{
 }
 
 /* fine sezione Porta Dropbox Business nella tua azienda */
+
+/* sezione Domande frequenti */
+
+#recurring-questions{
+    margin-bottom: 50px;
+    margin-top: 130px;
+    font-size: 2.5rem;
+}
+
+.col-100-questions{
+    width: 100%;
+    padding: 40px 0px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-recurring-questions{
+    width: 100%;
+    }
+
+#border-bottom-questions{
+        border-bottom: 1px solid black;
+    }
+    
+.fa-angle-down{
+        margin-right: 20px;
+    }    
+
+/* fine sezione Domande frequenti */
